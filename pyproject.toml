@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-bpe-tokenizer-byte-pair-encoder-skill"
+version = "1.0.0"
+description = "Byte-Pair Encoding (BPE) subword tokenizer trainer and deterministic text encoder/decoder."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "AlphaPark Team", email = "engineering@alphapark.ai"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Text Processing :: Linguistic",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+[project.urls]
+Homepage = "https://github.com/alphaparkinc/genpark-bpe-tokenizer-byte-pair-encoder-skill"
+Repository = "https://github.com/alphaparkinc/genpark-bpe-tokenizer-byte-pair-encoder-skill.git"
+Issues = "https://github.com/alphaparkinc/genpark-bpe-tokenizer-byte-pair-encoder-skill/issues"
