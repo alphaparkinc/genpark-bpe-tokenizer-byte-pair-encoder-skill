@@ -1,0 +1,9 @@
+{
+  "schema_version": "v1",
+  "name": "genpark-bpe-tokenizer-byte-pair-encoder-skill",
+  "version": "1.0.0",
+  "description": "Byte-Pair Encoding (BPE) subword tokenizer trainer and deterministic text encoder/decoder.",
+  "entrypoint": "client.py",
+  "mcp_server": "mcp_server.py",
+  "category": "Service"
+}
