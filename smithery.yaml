@@ -1,0 +1,6 @@
+# Smithery configuration for genpark-bpe-tokenizer-byte-pair-encoder-skill
+name: genpark-bpe-tokenizer-byte-pair-encoder-skill
+version: 1.0.0
+runtime: python
+entrypoint: mcp_server.py
+type: stdio
